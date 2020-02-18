@@ -19,13 +19,18 @@ body {
 
 #navbar {
   text-decoration: none;
+  position: fixed;
+  text-align: center;
 }
+
 
 .nav-link {
   text-decoration: none;
   margin-left: 1em;
   margin-right: 1em;
   color: gray;
+  position: relative;
+  left: 900px;
 }
 
 .nav-link:hover {
@@ -41,4 +46,13 @@ body {
 
 .project-content {
   padding: 2em;
+}
+
+#github-logo, #github-page {
+  position: relative;
+  left: 500px;
+}
+
+#github-page {
+  top: 10px;
 }
