@@ -1,1 +1,44 @@
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  padding: 0em;
+}
+.content {
+  padding-top: 2em;
+  padding-left: 5em;
+  padding-right: 5em;
+}
 
+#welcome-section {
+  text-align: center;
+  height: 80%;
+  background-color: lightblue;
+  padding-bottom: 3em;
+}
+
+#navbar {
+  text-decoration: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin-left: 1em;
+  margin-right: 1em;
+  color: gray;
+}
+
+.nav-link:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.project-tile {
+  padding-top: 1em;
+  display: flex;
+  flex-direction: row;
+}
+
+.project-content {
+  padding: 2em;
+}
